@@ -30,6 +30,8 @@ const reset = () => {
     country.value = '';
     pincode.value = '';
 
+    likedFood =[];
+
     gender.forEach(v => {
         if (v.checked === true) {
             v.checked = false;
